@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ProduitController!{% endblock %}
+
+{% block body %}
+    <div class="container">
+        {{ produit.label }}
+        {{ produit.description }}
+        {{ produit.price }}
+    </div>
+{% endblock %}
